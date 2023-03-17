@@ -1,0 +1,19 @@
+{
+  "name": "logger",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "clean": "rimraf .turbo node_modules",
+    "lint": "tsc --noEmit && eslint .",
+    "lint:fix": "npm run lint --fix"
+  },
+  "dependencies": {
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-gw2e": "*",
+    "typescript": "^5.0.3"
+  }
+}

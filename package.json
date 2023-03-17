@@ -1,0 +1,46 @@
+{
+  "name": "gw2exchange",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "dotenv -c -- turbo build",
+    "clean": "turbo clean",
+    "dev": "dotenv -c -- turbo dev --parallel",
+    "dev:daemon": "dotenv -c -- turbo dev --filter=daemon",
+    "dev:server": "dotenv -c -- turbo dev --filter=server",
+    "dev:web": "dotenv -c -- turbo dev --filter=web",
+    "format": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,json}\" --ignore-path .gitignore",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
+    "prepare": "husky install",
+    "start": "dotenv -c -- turbo start --parallel",
+    "start:daemon": "dotenv -c -- turbo start --filter=daemon",
+    "start:server": "dotenv -c -- turbo start --filter=server",
+    "start:web": "dotenv -c -- turbo start --filter=web"
+  },
+  "lint-staged": {
+    "*.{js,cjs,mjs,ts,tsx,md,json}": "prettier --write"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+    "@types/prettier": "^2.7.2",
+    "dotenv-cli": "^7.1.0",
+    "eslint": "^8.36.0",
+    "eslint-config-gw2e": "*",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.5",
+    "prettier-plugin-tailwindcss": "^0.2.5",
+    "rimraf": "^4.4.0",
+    "turbo": "^1.8.5",
+    "typescript": "^5.0.2"
+  },
+  "packageManager": "npm@9.5.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
