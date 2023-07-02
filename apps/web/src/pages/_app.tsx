@@ -2,7 +2,6 @@ import "~/styles/globals.css";
 
 import type { AppProps, NextWebVitalsMetric } from "next/app";
 import { Cabin } from "next/font/google";
-import Script from "next/script";
 import { DefaultSeo } from "next-seo";
 import { event, GoogleAnalytics } from "nextjs-google-analytics";
 
@@ -25,10 +24,6 @@ export default function App({ Component, pageProps: { ...pageProps } }: AppProps
         }
       `}</style>
       <GoogleAnalytics trackPageViews />
-      <Script
-        src={`//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=${process.env.NEXT_PUBLIC_AMAZON_ADS_ID}`}
-        async
-      />
       <ThemeProvider>
         <Layout>
           <Component {...pageProps} />

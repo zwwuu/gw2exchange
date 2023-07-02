@@ -29,7 +29,7 @@ export default function ExchangeCalculator({ buyPrice, sellPrice }: ExchangeConv
         <h3 className={"card-title"}>Calculator</h3>
         <form className={"flex flex-col space-y-4"}>
           <div className={"form-control"}>
-            <label className={"label"}>
+            <label className={"label"} htmlFor={"quantity"}>
               <span className={"label-text"}>Selling</span>
             </label>
             <div className={"input-group"}>

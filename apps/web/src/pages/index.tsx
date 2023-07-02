@@ -58,11 +58,11 @@ export default function HomePage({
                 </div>
               </div>
             </div>
-            <div className={"col-span-full md:col-span-6"}>
+            <div className={"col-span-full md:col-span-5"}>
               <Ads />
             </div>
 
-            <div className={"col-span-full md:col-span-6"}>
+            <div className={"col-span-full md:col-span-7"}>
               <ExchangeCalculator buyPrice={latestPrice.buy} sellPrice={latestPrice.sell} />
             </div>
 
