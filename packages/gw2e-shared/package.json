@@ -10,11 +10,10 @@
     "lint:fix": "npm run lint --fix"
   },
   "dependencies": {
-    "mongoose": "^7.0.3"
+    "mongoose": "^7.3.1"
   },
   "devDependencies": {
-    "eslint": "^8.37.0",
-    "eslint-config-gw2e": "*",
-    "typescript": "^5.0.3"
+    "eslint": "^8.44.0",
+    "eslint-config-gw2e": "*"
   }
 }

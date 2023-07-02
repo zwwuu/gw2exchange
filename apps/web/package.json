@@ -10,30 +10,30 @@
     "start": "next start"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.13",
-    "@tabler/icons-react": "^2.13.1",
-    "axios": "^1.3.4",
+    "@headlessui/react": "^1.7.15",
+    "@tabler/icons-react": "^2.23.0",
+    "axios": "^1.4.0",
     "clsx": "^1.2.1",
-    "daisyui": "^2.51.5",
+    "daisyui": "^3.1.7",
     "gw2e-shared": "*",
-    "next": "^13.2.4",
-    "next-seo": "^6.0.0",
-    "next-sitemap": "^4.0.6",
+    "next": "^13.4.7",
+    "next-seo": "^6.1.0",
+    "next-sitemap": "^4.1.8",
     "nextjs-google-analytics": "^2.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "recharts": "^2.5.0",
-    "sharp": "^0.32.0"
+    "recharts": "^2.7.2",
+    "sharp": "^0.32.1"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "@types/react": "^18.0.31",
-    "@types/react-dom": "^18.0.11",
-    "eslint": "^8.37.0",
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "eslint": "^8.44.0",
     "eslint-config-gw2e": "*",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.24",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^8.3.0",
-    "tailwindcss": "^3.3.1"
+    "postcss-preset-env": "^8.5.1",
+    "tailwindcss": "^3.3.2"
   }
 }

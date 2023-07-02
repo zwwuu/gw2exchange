@@ -1,9 +1,10 @@
 import "~/styles/globals.css";
+
 import type { AppProps, NextWebVitalsMetric } from "next/app";
 import { Cabin } from "next/font/google";
 import Script from "next/script";
 import { DefaultSeo } from "next-seo";
-import { GoogleAnalytics, event } from "nextjs-google-analytics";
+import { event, GoogleAnalytics } from "nextjs-google-analytics";
 
 import Layout from "~/components/Layout/Layout";
 import ThemeProvider from "~/components/ThemeProvider/ThemeProvider";
