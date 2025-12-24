@@ -1,5 +1,7 @@
 # GW2 Exchange
 
+[![CodSpeed](https://img.shields.io/badge/CodSpeed-performance%20tracking-blue?logo=github&style=flat-square)](https://codspeed.io/zwwuu/gw2exchange?utm_source=badge)
+
 Monorepo for GW2 Exchange
 
 ## What's inside?
@@ -43,6 +45,14 @@ To develop all apps and packages, run the following command:
 ```
 cd my-turborepo
 npm run dev
+```
+
+### Benchmarks
+
+To run the performance benchmarks locally:
+
+```
+npm run bench
 ```
 
 ### Remote Caching

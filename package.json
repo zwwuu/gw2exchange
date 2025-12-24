@@ -7,6 +7,7 @@
     "packages/*"
   ],
   "scripts": {
+    "bench": "vitest bench",
     "build": "dotenv -c -- turbo build",
     "clean": "turbo clean",
     "dev": "dotenv -c -- turbo dev --parallel",
@@ -26,6 +27,7 @@
     "*.{js,cjs,mjs,ts,tsx,md,json}": "prettier --write"
   },
   "devDependencies": {
+    "@codspeed/vitest-plugin": "^5.0.1",
     "@ianvs/prettier-plugin-sort-imports": "^4.0.2",
     "@types/prettier": "^2.7.3",
     "dotenv-cli": "^7.2.1",
@@ -37,7 +39,8 @@
     "prettier-plugin-tailwindcss": "^0.3.0",
     "rimraf": "^5.0.1",
     "turbo": "^1.10.7",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "vitest": "^4.0.16"
   },
   "packageManager": "npm@9.5.0",
   "engines": {
